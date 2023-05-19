@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow-x: scroll;
+}
+.cards .card > img {
+  border-radius: 25px;
+}
+.card {
+  position: relative;
+  cursor: pointer;
+}
+.cards .card span:nth-of-type(2),
+.cards .card span:nth-of-type(3) {
+  color: #777;
+}
+.cards span {
+  margin: 3px;
+}
+.cards {
+  margin: 10px 50px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.badge {
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px dashed black;
+}
+.header {
+  padding: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.main {
+  text-align: center;
+  margin: 50px auto;
+}
+.main img {
+  max-width: 800px;
+}
